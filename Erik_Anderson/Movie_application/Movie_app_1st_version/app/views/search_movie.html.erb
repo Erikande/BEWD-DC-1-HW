@@ -1,0 +1,6 @@
+
+<% @movies.each do |movie| %>
+<div>
+	<%= "#{movie.title}: #{movie.description}: #{movie.year_released}: #{movie.rating}" %>
+</div>
+<% end %>

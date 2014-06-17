@@ -1,0 +1,21 @@
+<table cellpadding="5">
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Year</th>
+    <th>Rating</th>
+    <th colspan="5"></th>
+  </tr>
+
+
+  <tr>
+    <td><%= @movies.title %></td>
+    <td><%= @movies.description %></td>
+    <td><%= @movies.year_released %></td>
+    <td><%= @movies.rating %></td>
+  </tr>
+</table>
+
+<br></br>
+
+<%=	link_to 'Back', movies_path %>
